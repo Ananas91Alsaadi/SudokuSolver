@@ -1,0 +1,27 @@
+input {
+	width: 50px;
+	height: 50px;
+	font-size: 50px;
+	text-align: center;
+}
+div{
+		display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+align-content: space-between;
+	align-items:center;
+	padding: 10px;
+	width: 195px;
+	height: 195px;
+	border: 2px solid #000;
+}
+#mainDiv {
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 657px;
+	height: 657px;
+}
+
