@@ -1,8 +1,8 @@
 input {
 	width: 50px;
 	height: 50px;
-	font-size: 50px;
 	text-align: center;
+	font-size: 45px;
 }
 div{
 		display: flex;
@@ -17,11 +17,24 @@ align-content: space-between;
 }
 #mainDiv {
 	margin: 0 auto;
-	padding: 0;
+	padding: 5px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	width: 657px;
-	height: 657px;
+	width: 750px;
+	height: 700px;
 }
 
+button {
+	position: absolute;
+}
+
+#start{
+	top:50px;
+	left: 100px;
+}
+
+#restart{
+	top:100px;
+	left: 100px;
+}
